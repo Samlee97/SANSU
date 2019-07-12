@@ -4,6 +4,37 @@
 <html>
 <head>
 <style>
+/* Bordered form */
+html, body {   
+ width: 100%;   
+height: 100%;   
+font-family: "Helvetica Neue", Helvetica, sans-serif;   
+color: #444;   
+-webkit-font-smoothing: antialiased;    background: #f0f0f0;
+}
+form {
+  border: 3px solid #f1f1f1;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+.container {
+  padding: 16px;
+}
+label {
+    color: #555;
+    display: inline-block;
+    margin-left: 15px;
+    padding-top: 10px;
+    font-size: 14px;
+}
 </style>
 <meta charset="ISO-8859-1">
 <title>Insert title here</title>
